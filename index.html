@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Explorer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <h1>City Explorer</h1>
+        <nav class="menu">
+            <a href="#destinatii">Destinații</a>
+            <a href="#planifica">Planifică</a>
+            <a href="#recomandari">Recomandări</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Destinații</h2>
+            <div id="destinatii">
+                <article class="card featured">
+                    <h3>Lisabona</h3>
+                    <p><strong>Țară:</strong> Portugalia</p>
+                    <p>Orașul celor șapte coline, faimos pentru tramvaiele galbene, arhitectura azulejos și priveliștile superbe asupra oceanului.</p>
+                    <p><em>Durată recomandată: 4 zile</em></p>
+                </article>
+
+                <article class="card">
+                    <h3>Roma</h3>
+                    <p><strong>Țară:</strong> Italia</p>
+                    <p>Cunoscut ca Cetatea Eternă, oferă o călătorie fascinantă în timp prin Colosseum, Forumul Roman și Fontana di Trevi.</p>
+                    <p><em>Durată recomandată: 3-5 zile</em></p>
+                </article>
+
+                <article class="card">
+                    <h3>Praga</h3>
+                    <p><strong>Țară:</strong> Cehia</p>
+                    <p>Orașul celor o sută de turnuri, renumit pentru Podul Carol, Castelul Praga și atmosfera sa medievală de poveste.</p>
+                    <p><em>Durată recomandată: 3 zile</em></p>
+                </article>
+
+                <article class="card">
+                    <h3>Barcelona</h3>
+                    <p><strong>Țară:</strong> Spania</p>
+                    <p>O metropolă vibrantă la Marea Mediterană, celebră pentru operele arhitecturale unice ale lui Antoni Gaudí.</p>
+                    <p><em>Durată recomandată: 4 zile</em></p>
+                </article>
+
+                <article class="card">
+                    <h3>Atena</h3>
+                    <p><strong>Țară:</strong> Grecia</p>
+                    <p>Leagănul civilizației vestice, unde vestigiile antice precum Acropola se îmbină perfect cu viața urbană modernă.</p>
+                    <p><em>Durată recomandată: 3 zile</em></p>
+                </article>
+            </div>
+        </section>
+
+        <section id="planifica">
+            <h2>Planifică</h2>
+            <form action="#" method="post" class="travel-form">
+                <label for="name">Nume</label>
+                <input id="name" name="name" type="text" placeholder="Numele tău complet" required>
+
+                <label for="destination">Destinație</label>
+                <select id="destination" name="destination" required>
+                    <option value="">Alege...</option>
+                    <option value="Lisabona">Lisabona</option>
+                    <option value="Roma">Roma</option>
+                    <option value="Praga">Praga</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Atena">Atena</option>
+                </select>
+
+                <label for="days">Număr de zile</label>
+                <input id="days" name="days" type="number" min="1" max="30" placeholder="Ex: 5" required>
+
+                <button type="submit">Planifică excursia</button>
+            </form>
+        </section>
+
+        <section id="recomandari">
+            <h2>Recomandări</h2>
+            <ul>
+                <li><strong>Cumpără biletele online în avans:</strong> Evită cozile lungi la atracțiile principale achiziționând accesul din timp.</li>
+                <li><strong>Merg pe jos și folosește transportul public:</strong> Cea mai bună cale de a descoperi farmecul local este să explorezi străduțele la pas.</li>
+                <li><strong>Călătorește cu bagaj de mână:</strong> Salvezi timp în aeroport și te deplasezi mult mai ușor între destinații.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Flavius-Costin Manolescu, 2026</p>
+    </footer>
+
+</body>
+</html>
