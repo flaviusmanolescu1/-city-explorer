@@ -9,6 +9,7 @@ createRoot(document.getElementById('root')).render(
   </StrictMode>
 )
 
+/*
 // ===== Laboratorul 2 =====
 console.log('L2 Merge!')
 
@@ -66,3 +67,4 @@ async function loadOrase() {
 }
 
 loadOrase()
+*/
